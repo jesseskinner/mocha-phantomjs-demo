@@ -1,0 +1,32 @@
+{
+  "name": "mocha-phantomjs-demo",
+  "version": "1.0.0",
+  "description": "Basic Mocha demo with PhantomJS",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "mocha-phantomjs test/testrunner.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jesseskinner/mocha-phantomjs.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "phantomjs",
+    "jquery"
+  ],
+  "author": "Jesse Skinner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesseskinner/mocha-phantomjs/issues"
+  },
+  "homepage": "https://github.com/jesseskinner/mocha-phantomjs",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "jquery": "^2.1.2",
+    "mocha": "^2.0.1",
+    "mocha-phantomjs": "^3.5.2",
+    "phantomjs": "^1.9.12"
+  }
+}
